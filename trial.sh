@@ -13,7 +13,7 @@ if [[ $option == 1 ]]; then
 	read A 
 	echo -e "${LIGHTGREEN} Value of B"
 	read B
-	echo -e "${LIGHTGREEN}SUM=$(($A+$B))"
+	echo -e "${LIGHTGREEN}Total=$(($A+$B))"
 fi
 
 if [[ $option == 2 ]]; then
@@ -21,21 +21,21 @@ if [[ $option == 2 ]]; then
 	read A
 	echo -e "${LIGHTRED}Value of B"
 	read B
-	echo -e "${LIGHTRED}Value=$(($A-$B))"
+	echo -e "${LIGHTRED}Total=$(($A-$B))"
 fi
 if [[ $option == 3 ]]; then
 	echo -e "${LIGHTCYAN}Value of A"
 	read A
 	echo -e "${LIGHTCYAN}Value of B"
 	read B
-	echo -e "${LIGHTCYAN}Value=$(($A*$B))"
+	echo -e "${LIGHTCYAN}Total=$(($A*$B))"
 fi
 if [[ $option == 4 ]]; then
 	echo "Value of A"
 	read A
 	echo "Value of B"
 	read B
-	echo "Value=$(($A%$B))"
+	echo "Total=$(($A%$B))"
 fi
 
 
