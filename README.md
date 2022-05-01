@@ -23,3 +23,12 @@ Answer will display
 
 ![sc3](https://user-images.githubusercontent.com/102431460/166144971-82072d58-3ae3-4387-a90b-f515125a2fdc.png)
 
+*INSTALLATION*
+
+git clone https://github.com/Anandhu-V-S/Arithmetic-Operation.git
+
+*USEAGE*
+
+cd Arithmetic-Operation
+
+bash script1.sh
