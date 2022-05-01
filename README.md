@@ -1,13 +1,24 @@
 # Arithmetic-Operation
-*We Can do 4 Arethmatic Operation Using this Script*
+*We Can do  Arethmatic Operation Using this Script*
 We Can Do  
 Addition,
 Substraction,
 Multiplication,
 Division,
+Square of number,
+Cube of number
 
-![screenshot1](https://user-images.githubusercontent.com/102431460/166108968-1f9035d0-77e6-46d0-a3e8-6f0bd175584d.png)
+Choose Which Operation you want
 
-![screenshot2](https://user-images.githubusercontent.com/102431460/166108948-7993292f-374f-465f-91f1-cd1ea4080d8d.png)
+![sc1](https://user-images.githubusercontent.com/102431460/166144956-e4fec892-3b3e-4c57-9b4e-ef8f3e80997a.png)
 
-![screenshot3](https://user-images.githubusercontent.com/102431460/166108960-3797d72f-7bb3-474b-9e28-a46d63584d2b.png)
+
+Enter the values
+
+![sc2](https://user-images.githubusercontent.com/102431460/166144959-2255d269-2267-4229-a78b-0c3e3424d618.png)
+
+
+Answer will display
+
+![sc3](https://user-images.githubusercontent.com/102431460/166144971-82072d58-3ae3-4387-a90b-f515125a2fdc.png)
+
