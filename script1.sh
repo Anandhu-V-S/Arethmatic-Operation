@@ -14,10 +14,10 @@ ADD=`echo "scale=4; $A+$B" | bc`
 echo "Total is $ADD"
 fi
 if [[ $option == 2 ]]; then
-read -p "Enter a number A: " numberA
-read -p "Enter a number B: " numberB
-Substraction=`echo "scale=4; $number$A-$numberB" | bc`
-echo "Total is $Substraction"
+read -p "Enter a number A: " A
+read -p "Enter a number B: " B
+Sub=`echo "scale=4; $A-$B" | bc`
+echo "Total is $Sub"
 fi
 if [[ $option == 3 ]]; then
 read -p "Enter a number A: " A
