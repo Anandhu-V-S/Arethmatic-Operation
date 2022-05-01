@@ -20,16 +20,16 @@ Substraction=`echo "scale=4; $number$A-$numberB" | bc`
 echo "Total is $Substraction"
 fi
 if [[ $option == 3 ]]; then
-read -p "Enter a number A: " numberA
-read -p "Enter a number B: " numberB
-Multiplication=`echo "scale=4; $number$A*$numberB" | bc`
-echo "Total is $Multiplication"
+read -p "Enter a number A: " A
+read -p "Enter a number B: " B
+Multi=`echo "scale=4; $A*$B" | bc`
+echo "Total is $Multi"
 fi
 if [[ $option == 4 ]]; then
-read -p "Enter a number A: " numberA
-read -p "Enter a number B: " numberB
-Division=`echo "scale=4; $number$A%$numberB" | bc`
-echo "Total is $Division"
+read -p "Enter a number A: " A
+read -p "Enter a number B: " B
+Divi=`echo "scale=4; $A%$B" | bc`
+echo "Total is $Divi"
 fi
 if [[ $option == 5 ]]; then
 read -p "Enter a number: " number
