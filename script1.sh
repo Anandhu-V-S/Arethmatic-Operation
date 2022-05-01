@@ -9,25 +9,25 @@ printf "\e[1;92m[\e[0m\e[1;77m7\e[0m\e[1;92m]\e[0m\e[1;93m Square Root\e[0m\n"
 read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m\en' option
 if [[ $option == 1 ]]; then
 read -p "Enter a number A: " numberA
-read -p "Enter a number B: "numberB
+read -p "Enter a number B: " numberB
 Addition=`echo "scale=4; $number$A+$numberB" | bc`
 echo "Total is $Addition"
 fi
 if [[ $option == 2 ]]; then
 read -p "Enter a number A: " numberA
-read -p "Enter a number B: "numberB
+read -p "Enter a number B: " numberB
 Substraction=`echo "scale=4; $number$A-$numberB" | bc`
 echo "Total is $Substraction"
 fi
 if [[ $option == 3 ]]; then
 read -p "Enter a number A: " numberA
-read -p "Enter a number B: "numberB
+read -p "Enter a number B: " numberB
 Multiplication=`echo "scale=4; $number$A*$numberB" | bc`
 echo "Total is $Multiplication"
 fi
 if [[ $option == 4 ]]; then
 read -p "Enter a number A: " numberA
-read -p "Enter a number B: "numberB
+read -p "Enter a number B: " numberB
 Division=`echo "scale=4; $number$A%$numberB" | bc`
 echo "Total is $Division"
 fi
