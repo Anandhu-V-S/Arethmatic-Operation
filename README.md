@@ -6,7 +6,8 @@ Substraction,
 Multiplication,
 Division,
 Square of number,
-Cube of number
+Cube of number,
+Sqaure Root
 
 Choose Which Operation you want
 
